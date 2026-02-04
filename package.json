@@ -1,0 +1,32 @@
+{
+  "name": "unioauth",
+  "version": "1.0.0",
+  "description": "Simple, unified OAuth login for GitHub, Google, and Discord — no passport.js required.",
+  "type": "module",
+  "main": "./src/index.js",
+  "exports": {
+    ".": "./src/index.js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "files": [
+    "src",
+    "README.md"
+  ],
+  "scripts": {
+    "test": "node --test test/"
+  },
+  "keywords": [
+    "oauth",
+    "oauth2",
+    "authentication",
+    "login",
+    "github",
+    "google",
+    "discord",
+    "social-login"
+  ],
+  "author": "Muhammad Noushal",
+  "license": "MIT"
+}
